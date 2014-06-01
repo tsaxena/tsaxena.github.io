@@ -1,0 +1,149 @@
+a:link {text-decoration: underline; color:rgb(45,143,181);}
+a:visited{color:rgb(128,0,128);}
+#container
+{
+	margin: 0 auto;
+	width: 1000px;
+	background: #fff;
+}
+
+#header
+{
+	background: rgb(234, 234, 234);
+	padding: 20px;
+	border-radius: 15pt;
+	font-family: Courier, sans-serif;
+	color: rgb(0, 102, 153);
+	font-size: 40pt;
+	text-align: center;
+	vertical-align: middle;	
+}
+
+#header h1 {
+	margin: 0;
+	height: 100px;
+	/**font-family: 'Josefin Slab', serif;**/
+	/**font-family: 'Josefin Slab', serif;	**/
+	font-family: 'Nixie One', cursive;
+	font-size:90px;
+	letter-spacing: -3px;
+	/**line-height:18px;**/
+	color:rgb(0, 102, 153);	
+}
+
+#navigation
+{
+	float: left;
+	width: 1000px;
+	background: #ccc;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
+
+#content-container
+{
+	float: left;
+	width: 1000px;
+	background: #fff url(/wp-content/uploads/layout-two-fixed-background.gif) repeat-y 100% 0;
+}
+
+#content
+{
+	clear: left;
+	float: left;
+	width: 560px;
+	padding: 20px 0 0 0;
+	margin: 0 0 0 30px;
+	display: inline;
+/**	font-family: Verdana, Arial;**/
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height:22px;
+	padding-right: 40px;
+	border-right-style: dashed;
+	border-right-width: thin;
+	color: #808080;
+}
+
+#content h4 {
+	font-family: 'Nixie One', cursive;
+	font-size:30px;
+	margin-bottom: -5px;
+	font-weight: 900;
+	color:rgb(0, 102, 153);
+	letter-spacing: -2px;
+	margin-top: 40px;
+}
+
+#content h2 { margin: 0; }
+
+#aside
+{
+	float: right;
+	width: 300px;
+	padding: 20px 0;
+	margin: 0 20px 0 0;
+	display: inline;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height:22px;
+	color: #808080;
+}
+
+#aside h3 {
+	font-family: 'Nixie One', cursive;
+	font-size:30px;
+	margin-bottom: -5px;
+	font-weight: 900;
+	color:rgb(0, 102, 153);
+	letter-spacing: -2px;
+	margin-top: 40px;
+}
+
+#aside h4 {
+	font-family: 'Nixie One', cursive;
+	font-size:30px;
+	font-weight: 900;
+	color:rgb(0, 102, 153);
+	letter-spacing: -2px;
+	margin-top: 10px;
+	margin-bottom: -5px;
+}
+
+#footer
+{
+	clear: both;
+	color: rgb(81, 181, 215);
+	background: rgb(234,234, 234);
+	text-align: right;
+	padding: 20px;
+	height: 1%;
+	border-radius: 15pt;
+	font-weight: 900;
+	font-family: 'Nixie One', cursive;
+}
+
+ul, ol { margin-left:1.5em; padding-left:0px; margin-bottom:-20px; margin-top:0;}
+li { margin-bottom:0.5em; }
