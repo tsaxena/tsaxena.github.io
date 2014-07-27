@@ -46,7 +46,7 @@ University of Technology in Sweden and a BS in Computer Science from
 Devi Ahilya University. 
 			</p>
 			<p>
-				I am currently a Data Science Fellow at Zipfian Academy  Data Science.
+				I am currently a Data Science Fellow at <a href="http://www.zipfianacademy.com/" target="_blank">Zipfian Academy</a>. As a part, I am working on building a recommendation system based on social network analysis for a startup. 
 			</p>
 			<h4>Background</h4>
 			<p style="text-align:justify">
@@ -76,11 +76,30 @@ constraint solvers.
  digit recognizer as a part of my bachelor's thesis. 
 
 			</p>
+									
+			<h4>Short Projects</h4>
+			<p>
+				<!--<img src="shortprojects.png" HEIGHT=47/> <br>-->
+				My research interests are vast, and I keep myself busy with side-projects, a few are:
+				</p><ul>
+				    <li><a href="https://github.com/tsaxena/DataMining/tree/master/Kaggle/DigitRecognizer" target="_blank">Digit Recognizer</a>: A neural network based solution to Kaggle Challenge</li>
+				    
+				    <li><a href="https://github.com/tsaxena/ConcurrentProgramming/tree/master/SudokuSolver/SharedMemoryModel" target="_blank">Sudoku Solver</a>: A Multi-threaded solver written in Java</li>
+				    <li><a href="https://github.com/tsaxena/InterviewQuestions/tree/master/Insight-Blackjack/Qt_slot" target="_blank">Blackjack</a>: A UI based single deck blackjack written in Qt</li>
+				    <li><a href="https://github.com/tsaxena/ConstraintProgramming/blob/master/SAT%20Solver/BasicDPLL/DPLL2.scala" target="_blank">BSAT</a>: A boolean satisfiability solver written in Scala</li>
+
+              			    
+				</ul>
+				<br> 
+			<p></p>
+
+
                         <h4>Research Interests</h4>
 			<p>
 				<!--<img src="researchinterests.png" HEIGHT=37/> <br>-->
 				</p><ul>
-					<li>Machine Learning / Data Mining</li>
+					<li>Social Network Analysis</li>
+					<li>Machine Learning/Data Mining </li>
 					<li>Natural Language Processing</li>
 					<li>Optimization</li>
 					<li>Model based design</li>
@@ -89,20 +108,12 @@ constraint solvers.
 				</ul>
 				<br> 
 			<p></p>
-			<h4>Short Projects</h4>
-			<p>
-				<!--<img src="shortprojects.png" HEIGHT=47/> <br>-->
-				My research interests are vast, and I keep myself busy with side-projects, a few are:
-				</p><ul>
-					
-				</ul>
-				<br> 
-			<p></p>
+			
 			
 		</div>
 		<div id="aside">
 			<h4>
-				<img src="index_files/photo.png" itemprop="image" width="300/"><br><br>
+				<img src="photo.jpg" itemprop="image" width="300/"><br><br>
 				
 			</h4>
 			<p>
@@ -126,6 +137,7 @@ constraint solvers.
 			
 			<h3>Jobs</h3>
 			<p>
+
 				<b>ISIS, Vanderbilt University</b><br>
 				Graduate Research Assistant<br><br>
 				
@@ -139,11 +151,8 @@ constraint solvers.
 				Research Intern
 				
 			</p>
-			<h3>Fun</h3>
-			<p>
-				
-				
-			</p>
+			<!---h3>Fun</h3--->
+			<!---p></p--->
 
 			
 		</div>
