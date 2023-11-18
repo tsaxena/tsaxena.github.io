@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+# About me 
+I am a Ph.D. in Computer Science from Vanderbilt University, and was advised
+Prof. Gabor Karsai. My reasearch area is Discrete optimization, Model Based Design. I worked at the Institute of Software Integrated Systems. I have a Masters in Dependable Computer Systems from Chalmers University of Technology in Sweden and a BS in Computer Science from Devi Ahilya University. 
