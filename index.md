@@ -6,6 +6,3 @@ I am currently a Staff Machine Learning Engineer at Adobe Firefly.
 
 This blog is a set of notes of things I want to remember. I draw inspiration from Hamel Husain's excellent [blog](https://hamel.dev/)
 
-
-# 
-
