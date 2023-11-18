@@ -1,5 +1,7 @@
 ## LLM finetuning
-I currently work on prompt engineering as a part of the firefly team. A lot of prompt processing is required 
+I currently work on prompt engineering as a part of the firefly team. As a part of that work I have come accross a number of ways to finetune LLMs for usecases. I am going to summarize some of common techniques for finetuning LLMs.
+
+-
 
 
 Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
