@@ -1,10 +1,17 @@
 ## LLM finetuning
 I currently work on prompt engineering as a part of the firefly team. As a part of that work I have come accross a number of ways to finetune LLMs for usecases. I am going to summarize some of common techniques for finetuning LLMs.
 
--
+
+# Notes:
+    - What are LLMs
+    - Finetuning LLMs
+    - 
+
+# References
 
 
-Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
+
+<!-- Due to a plugin called `jekyll-titles-from-headings` which is supported by GitHub Pages by default. The above header (in the markdown file) will be automatically used as the pages title.
 
 If the file does not start with a header, then the post title will be derived from the filename.
 
@@ -33,10 +40,6 @@ Write-Host "This is a powershell Code block";
 ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
-```
+``` -->
 
-
-# Notes:
-    - What are LLMs
-    - Finetuning LLMs
     
