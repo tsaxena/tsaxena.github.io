@@ -7,15 +7,19 @@ Large language models (LLMs) are typically expansive deep neural networks, commo
 
 LLMs have the same model architecture (transformer based) and trained on similar pre-training tasks as smaller language models but are siginificantly scaled on model size, data and traiing compute.
 
-# Common LLMs 
+LLMs are trained using unsupervised learning/ With unsupervised learning, models can find previously unknown patterns. Due to the extensive training, LLMs can generate text for a variety of tasks in zero-shot manner. Despite that, there are cases where we want to control the output of LLMs. There are 3 ways of customizing LLMs for specific tasks:
+- Prompt tuning
+- Fine-tuning
+- Adapters
 
 
-    - Finetuning LLMs
-    - 
+# Prompt Tuning
 
 # References
 - [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
 - [Nvidia Blog: LLMs](https://www.nvidia.com/en-us/glossary/data-science/large-language-models/)
+- [Cohere LLM University](https://docs.cohere.com/docs/intro-large-language-models)
+- [Parameter Efficient Transfer Learning](https://arxiv.org/abs/1902.00751)
 
 
 
