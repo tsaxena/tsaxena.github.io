@@ -5,13 +5,17 @@ I currently work on prompt engineering as a part of the firefly team. As a part 
 # What are LLMs? 
 Large language models (LLMs) are typically expansive deep neural networks, commonly used for tasks like language translation, text summarization, and notably, conversational AI. Studies have shown that transformer-based models, when trained on extensive datasets, exhibit strong proficiency in tackling natural language processing (NLP) tasks. Increasing the model's parameters appears to enhance its capabilities. To investigate the limits of this scalability, researchers observed that pushing the number of parameters beyond a certain threshold not only amplifies the model's capacity but also unveils context-learning abilities that are absent in smaller language models like BERT.
 
-How large are the language models have to be to be classified as large language models. Anything over 50b  
+LLMs have the same model architecture (transformer based) and trained on similar pre-training tasks as smaller language models but are siginificantly scaled on model size, data and traiing compute.
+
+# Common LLMs 
+
 
     - Finetuning LLMs
     - 
 
 # References
 - [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
+- [Nvidia Blog: LLMs](https://www.nvidia.com/en-us/glossary/data-science/large-language-models/)
 
 
 
