@@ -14,8 +14,10 @@ LLMs are trained using unsupervised learning/ With unsupervised learning, models
 layers of pre-trained LLMs and only tunes parameters in the adapters. [PEFT](https://huggingface.co/docs/peft/index) is a library for efficiently adapting pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model’s parameters.
    - Prompt Tuning
    - Prefix Tuning
-   - P Tuning
-   - LORA
+   - P-Tuning
+   - LoRA
+   - Prompt Tuning	
+   - IA3
 
 
 
