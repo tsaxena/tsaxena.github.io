@@ -17,10 +17,9 @@ LLMs are trained using unsupervised learning/ With unsupervised learning, models
 In context learning, prepending instructions or providing examples to pre-trained LLM. Prompt is engineeringand optimized to obtain desired output from LLM. Weights of the LLM are not modified.
 
 # Fine-tuning 
-
-## Full finetuning
 All parameters are updated
-## Parameter Efficient Fine-Tuning (Lora)
+
+### Parameter Efficient Fine-Tuning (Lora)
 Only a small fraction of model parameters are updated while other parameters
 are frozen. Adapter-tuning: Inserts additional task-specific layers between the
 layers of pre-trained LLMs and only tunes parameters in the adapters.  
