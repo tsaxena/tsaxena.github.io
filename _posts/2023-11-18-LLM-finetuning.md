@@ -11,7 +11,10 @@ LLMs are trained using unsupervised learning/ With unsupervised learning, models
 - Prompting: In-context learning, prepending instructions or providing examples to pre-trained LLM. Prompt is engineered and optimized to obtain desired output from LLM. Weights of the LLM are not modified.
 
 - Fine-tuning: All parameters are updated in full fine-tuning but LLMs are hard to fine-tune and experiments can lead to catistrophic forgetting. A more efficient way of fine-tuning is parameter efficient fine-tuning where only a small fraction of model parameters are updated while other parameters are frozen. Adapter-tuningm inserts additional task-specific layers between the
-layers of pre-trained LLMs and only tunes parameters in the adapters.
+layers of pre-trained LLMs and only tunes parameters in the adapters. [PEFT](https://huggingface.co/docs/peft/index) is a library for efficiently adapting pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model’s parameters.
+   - Prompt Tuning
+   - Prefix Tuning
+   - 
 
 
 
