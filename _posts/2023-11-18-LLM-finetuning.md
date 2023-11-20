@@ -17,8 +17,12 @@ LLMs are trained using unsupervised learning/ With unsupervised learning, models
 
 # Fine-tuning 
 
-
+## Full finetuning
+All parameters are updated
 ## Parameter Efficient Fine-Tuning (Lora)
+Only a small fraction of model parameters are updated while other parameters
+are frozen. Adapter-tuning: Inserts additional task-specific layers between the
+layers of pre-trained LLMs and only tunes parameters in the adapters.  
 
 # References
 - [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
