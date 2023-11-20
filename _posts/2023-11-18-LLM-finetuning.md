@@ -13,7 +13,8 @@ LLMs are trained using unsupervised learning/ With unsupervised learning, models
 - Fine-tuning
     - Adapters
 
-# Prompt Tuning
+# Prompting
+In context learning, prepending instructions or providing examples to pre-trained LLM. Prompt is engineeringand optimized to obtain desired output from LLM. Weights of the LLM are not modified.
 
 # Fine-tuning 
 
