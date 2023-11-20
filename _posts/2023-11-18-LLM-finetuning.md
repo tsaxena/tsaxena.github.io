@@ -8,21 +8,12 @@ Large language models (LLMs) are typically expansive deep neural networks, commo
 LLMs have the same model architecture (transformer based) and trained on similar pre-training tasks as smaller language models but are siginificantly scaled on model size, data and traiing compute.
 
 LLMs are trained using unsupervised learning/ With unsupervised learning, models can find previously unknown patterns. Due to the extensive training, LLMs can generate text for a variety of tasks in zero-shot manner. Despite that, there are cases where we want to control the output of LLMs. There are 3 ways of customizing LLMs for specific tasks:
-- Prompting
+- Prompting: In-context learning, prepending instructions or providing examples to pre-trained LLM. Prompt is engineered and optimized to obtain desired output from LLM. Weights of the LLM are not modified.
 
-- Fine-tuning
-    - Adapters
+- Fine-tuning: All parameters are updated in full fine-tuning but LLMs are hard to fine-tune and experiments can lead to catistrophic forgetting. A more efficient way of fine-tuning is parameter efficient fine-tuning where only a small fraction of model parameters are updated while other parameters are frozen. Adapter-tuningm inserts additional task-specific layers between the
+layers of pre-trained LLMs and only tunes parameters in the adapters.
 
-# Prompting
-In context learning, prepending instructions or providing examples to pre-trained LLM. Prompt is engineeringand optimized to obtain desired output from LLM. Weights of the LLM are not modified.
 
-# Fine-tuning 
-All parameters are updated
-
-### Parameter Efficient Fine-Tuning (Lora)
-Only a small fraction of model parameters are updated while other parameters
-are frozen. Adapter-tuning: Inserts additional task-specific layers between the
-layers of pre-trained LLMs and only tunes parameters in the adapters.  
 
 # References
 - [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
