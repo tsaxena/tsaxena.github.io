@@ -9,6 +9,8 @@ LLMs have the same model architecture (transformer based) and trained on similar
 
 LLMs are trained using unsupervised learning/ With unsupervised learning, models can find previously unknown patterns. Due to the extensive training, LLMs can generate text for a variety of tasks in zero-shot manner. Despite that, there are cases where we want to control the output of LLMs. There are 3 ways of customizing LLMs for specific tasks:
 - Prompting: In-context learning, prepending instructions or providing examples to pre-trained LLM. Prompt is engineered and optimized to obtain desired output from LLM. Weights of the LLM are not modified.
+   - Hard prompts like templates
+   - 
 
 - Fine-tuning: All parameters are updated in full fine-tuning but LLMs are hard to fine-tune and experiments can lead to catistrophic forgetting. A more efficient way of fine-tuning is parameter efficient fine-tuning where only a small fraction of model parameters are updated while other parameters are frozen. Adapter-tuningm inserts additional task-specific layers between the
 layers of pre-trained LLMs and only tunes parameters in the adapters. [PEFT](https://huggingface.co/docs/peft/index) is a library for efficiently adapting pre-trained language models (PLMs) to various downstream applications without fine-tuning all the model’s parameters.
@@ -26,6 +28,7 @@ layers of pre-trained LLMs and only tunes parameters in the adapters. [PEFT](htt
 - [Nvidia Blog: LLMs](https://www.nvidia.com/en-us/glossary/data-science/large-language-models/)
 - [Cohere LLM University](https://docs.cohere.com/docs/intro-large-language-models)
 - [Parameter Efficient Transfer Learning](https://arxiv.org/abs/1902.00751)
+- [Andriej Karpathy: Intro to LLM](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 
 
 
